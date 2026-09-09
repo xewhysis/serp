@@ -4,7 +4,8 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow) {
+    , ui(new Ui::MainWindow)
+{
     ui->setupUi(this);
 
     ui->nSpinBox->setMinimum(0);
@@ -17,18 +18,30 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->iterationLabel->setText("Итерация: 0");
 
-    connect(ui->buildButton, &QPushButton::clicked, this, &MainWindow::buildKoch);
+    connect(
+        ui->buildButton,
+        &QPushButton::clicked,
+        this,
+        &MainWindow::buildSnowflake
+        );
 
-    connect(ui->iterationSlider, &QSlider::valueChanged, this, &MainWindow::sliderChanged);
+    connect(
+        ui->iterationSlider,
+        &QSlider::valueChanged,
+        this,
+        &MainWindow::sliderChanged
+        );
 
     ui->kochWidget->setIteration(0);
 }
 
-MainWindow::~MainWindow() {
+MainWindow::~MainWindow()
+{
     delete ui;
 }
 
-void MainWindow::buildKoch() {
+void MainWindow::buildSnowflake()
+{
     int n = ui->nSpinBox->value();
 
     ui->iterationSlider->setMaximum(n);
@@ -41,7 +54,9 @@ void MainWindow::buildKoch() {
 
 void MainWindow::sliderChanged(int value)
 {
-    ui->iterationLabel->setText(QString("Итерация: %1").arg(value));
+    ui->iterationLabel->setText(
+        QString("Итерация: %1").arg(value)
+        );
 
     ui->kochWidget->setIteration(value);
 }

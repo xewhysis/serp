@@ -10,18 +10,13 @@
     <height>800</height>
    </rect>
   </property>
-
   <property name="windowTitle">
    <string>Снежинка Коха</string>
   </property>
-
   <widget class="QWidget" name="centralwidget">
-
    <layout class="QVBoxLayout" name="verticalLayout">
-
     <item>
      <layout class="QHBoxLayout" name="inputLayout">
-
       <item>
        <widget class="QLabel" name="nLabel">
         <property name="text">
@@ -29,23 +24,19 @@
         </property>
        </widget>
       </item>
-
       <item>
        <widget class="QSpinBox" name="nSpinBox">
         <property name="minimum">
          <number>0</number>
         </property>
-
         <property name="maximum">
          <number>8</number>
         </property>
-
         <property name="value">
          <number>5</number>
         </property>
        </widget>
       </item>
-
       <item>
        <widget class="QPushButton" name="buildButton">
         <property name="text">
@@ -53,13 +44,11 @@
         </property>
        </widget>
       </item>
-
       <item>
        <spacer name="horizontalSpacer">
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Orientation::Horizontal</enum>
         </property>
-
         <property name="sizeHint" stdset="0">
          <size>
           <width>40</width>
@@ -68,78 +57,59 @@
         </property>
        </spacer>
       </item>
-
      </layout>
     </item>
-
     <item>
      <widget class="QLabel" name="iterationLabel">
       <property name="text">
        <string>Итерация: 0</string>
       </property>
-
       <property name="alignment">
-       <set>Qt::AlignCenter</set>
+       <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
     </item>
-
     <item>
      <widget class="QSlider" name="iterationSlider">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-
       <property name="minimum">
        <number>0</number>
       </property>
-
       <property name="maximum">
        <number>5</number>
       </property>
-
       <property name="value">
        <number>0</number>
       </property>
-
-      <property name="tickPosition">
-       <enum>QSlider::TicksBelow</enum>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
-
+      <property name="tickPosition">
+       <enum>QSlider::TickPosition::TicksBelow</enum>
+      </property>
       <property name="tickInterval">
        <number>1</number>
       </property>
      </widget>
     </item>
-
     <item>
      <widget class="QFrame" name="kochFrame">
       <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
+       <enum>QFrame::Shape::StyledPanel</enum>
       </property>
-
       <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+       <enum>QFrame::Shadow::Raised</enum>
       </property>
-
       <layout class="QVBoxLayout" name="kochLayout">
-
        <item>
-        <widget class="KochWidget" name="kochWidget"/>
+        <widget class="KochWidget" name="kochWidget" native="true"/>
        </item>
-
       </layout>
      </widget>
     </item>
-
    </layout>
-
   </widget>
-
   <widget class="QStatusBar" name="statusbar"/>
-
  </widget>
-
  <customwidgets>
   <customwidget>
    <class>KochWidget</class>
@@ -148,7 +118,6 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
-
  <resources/>
  <connections/>
 </ui>

@@ -4,16 +4,20 @@
 #include <QtMath>
 
 KochWidget::KochWidget(QWidget *parent)
-    : QWidget(parent) {
-    setMinimumSize(700, 400);
+    : QWidget(parent)
+{
+    setMinimumSize(600, 400);
+    setAutoFillBackground(true);
 }
 
-void KochWidget::setIteration(int iteration) {
+void KochWidget::setIteration(int iteration)
+{
     m_iteration = iteration;
     update();
 }
 
-void KochWidget::paintEvent(QPaintEvent *event) {
+void KochWidget::paintEvent(QPaintEvent *event)
+{
     Q_UNUSED(event);
 
     QPainter painter(this);
@@ -23,27 +27,51 @@ void KochWidget::paintEvent(QPaintEvent *event) {
     painter.fillRect(rect(), Qt::white);
 
     QPen pen(Qt::black);
-    pen.setWidth(3);
+    pen.setWidth(2);
 
     painter.setPen(pen);
     painter.setBrush(Qt::NoBrush);
 
-    double margin = 50.0;
+    double size = qMin(width(), height()) * 0.65;
 
-    QPointF start(
-        margin,
-        height() / 2.0 + 50.0
+    double centerX = width() / 2.0;
+    double centerY = height() / 2.0;
+
+    double triangleHeight = size * qSqrt(3.0) / 2.0;
+
+    QPointF top(
+        centerX,
+        centerY - triangleHeight / 2.0
         );
 
-    QPointF end(
-        width() - margin,
-        height() / 2.0 + 50.0
+    QPointF left(
+        centerX - size / 2.0,
+        centerY + triangleHeight / 2.0
+        );
+
+    QPointF right(
+        centerX + size / 2.0,
+        centerY + triangleHeight / 2.0
         );
 
     drawKoch(
         painter,
-        start,
-        end,
+        top,
+        right,
+        m_iteration
+        );
+
+    drawKoch(
+        painter,
+        right,
+        left,
+        m_iteration
+        );
+
+    drawKoch(
+        painter,
+        left,
+        top,
         m_iteration
         );
 }

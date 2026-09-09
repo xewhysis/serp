@@ -39,14 +39,14 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "MainWindow",
-        "buildKoch",
+        "buildSnowflake",
         "",
         "sliderChanged",
         "value"
     };
 
     QtMocHelpers::UintData qt_methods {
-        // Slot 'buildKoch'
+        // Slot 'buildSnowflake'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'sliderChanged'
         QtMocHelpers::SlotData<void(int)>(3, 2, QMC::AccessPrivate, QMetaType::Void, {{
@@ -75,7 +75,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     auto *_t = static_cast<MainWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->buildKoch(); break;
+        case 0: _t->buildSnowflake(); break;
         case 1: _t->sliderChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }

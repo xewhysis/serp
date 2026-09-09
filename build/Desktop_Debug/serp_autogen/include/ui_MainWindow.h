@@ -22,7 +22,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-//#include "../../../../KochWidget.h"
+//#include "KochWidget.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -81,25 +81,25 @@ public:
 
         iterationLabel = new QLabel(centralwidget);
         iterationLabel->setObjectName("iterationLabel");
-        iterationLabel->setAlignment(Qt::AlignCenter);
+        iterationLabel->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         verticalLayout->addWidget(iterationLabel);
 
         iterationSlider = new QSlider(centralwidget);
         iterationSlider->setObjectName("iterationSlider");
-        iterationSlider->setOrientation(Qt::Horizontal);
         iterationSlider->setMinimum(0);
         iterationSlider->setMaximum(5);
         iterationSlider->setValue(0);
-        iterationSlider->setTickPosition(QSlider::TicksBelow);
+        iterationSlider->setOrientation(Qt::Orientation::Horizontal);
+        iterationSlider->setTickPosition(QSlider::TickPosition::TicksBelow);
         iterationSlider->setTickInterval(1);
 
         verticalLayout->addWidget(iterationSlider);
 
         kochFrame = new QFrame(centralwidget);
         kochFrame->setObjectName("kochFrame");
-        kochFrame->setFrameShape(QFrame::StyledPanel);
-        kochFrame->setFrameShadow(QFrame::Raised);
+        kochFrame->setFrameShape(QFrame::Shape::StyledPanel);
+        kochFrame->setFrameShadow(QFrame::Shadow::Raised);
         kochLayout = new QVBoxLayout(kochFrame);
         kochLayout->setObjectName("kochLayout");
         kochWidget = new KochWidget(kochFrame);
