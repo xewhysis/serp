@@ -1,0 +1,9 @@
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/serp.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/edit_cache.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/rebuild_cache.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/list_install_components.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/install.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/install/local.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/install/strip.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/serp_autogen_timestamp_deps.dir
+/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/serp_autogen.dir

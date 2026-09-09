@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/serp.dir/link.d CMakeFiles/serp.dir/serp_autogen/mocs_compilation.cpp.o CMakeFiles/serp.dir/main.cpp.o CMakeFiles/serp.dir/mainwindow.cpp.o -o serp  /usr/lib/libQt6Widgets.so.6.11.2 /usr/lib/libQt6Gui.so.6.11.2 /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/libQt6Core.so.6.11.2
