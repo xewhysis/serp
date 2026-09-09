@@ -9,8 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "serp_autogen/timestamp" "custom" "serp_autogen/deps"
+  "/home/xewhysis/C++/gitprojects/serp/KochWidget.cpp" "CMakeFiles/serp.dir/KochWidget.cpp.o" "gcc" "CMakeFiles/serp.dir/KochWidget.cpp.o.d"
+  "/home/xewhysis/C++/gitprojects/serp/MainWindow.cpp" "CMakeFiles/serp.dir/MainWindow.cpp.o" "gcc" "CMakeFiles/serp.dir/MainWindow.cpp.o.d"
   "/home/xewhysis/C++/gitprojects/serp/main.cpp" "CMakeFiles/serp.dir/main.cpp.o" "gcc" "CMakeFiles/serp.dir/main.cpp.o.d"
-  "/home/xewhysis/C++/gitprojects/serp/mainwindow.cpp" "CMakeFiles/serp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/serp.dir/mainwindow.cpp.o.d"
   "/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/serp_autogen/mocs_compilation.cpp" "CMakeFiles/serp.dir/serp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/serp.dir/serp_autogen/mocs_compilation.cpp.o.d"
   "" "serp" "gcc" "CMakeFiles/serp.dir/link.d"
   )

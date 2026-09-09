@@ -107,32 +107,48 @@ CMakeFiles/serp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serp.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xewhysis/C++/gitprojects/serp/main.cpp -o CMakeFiles/serp.dir/main.cpp.s
 
-CMakeFiles/serp.dir/mainwindow.cpp.o: CMakeFiles/serp.dir/flags.make
-CMakeFiles/serp.dir/mainwindow.cpp.o: /home/xewhysis/C++/gitprojects/serp/mainwindow.cpp
-CMakeFiles/serp.dir/mainwindow.cpp.o: CMakeFiles/serp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/serp.dir/mainwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serp.dir/mainwindow.cpp.o -MF CMakeFiles/serp.dir/mainwindow.cpp.o.d -o CMakeFiles/serp.dir/mainwindow.cpp.o -c /home/xewhysis/C++/gitprojects/serp/mainwindow.cpp
+CMakeFiles/serp.dir/MainWindow.cpp.o: CMakeFiles/serp.dir/flags.make
+CMakeFiles/serp.dir/MainWindow.cpp.o: /home/xewhysis/C++/gitprojects/serp/MainWindow.cpp
+CMakeFiles/serp.dir/MainWindow.cpp.o: CMakeFiles/serp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/serp.dir/MainWindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serp.dir/MainWindow.cpp.o -MF CMakeFiles/serp.dir/MainWindow.cpp.o.d -o CMakeFiles/serp.dir/MainWindow.cpp.o -c /home/xewhysis/C++/gitprojects/serp/MainWindow.cpp
 
-CMakeFiles/serp.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serp.dir/mainwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xewhysis/C++/gitprojects/serp/mainwindow.cpp > CMakeFiles/serp.dir/mainwindow.cpp.i
+CMakeFiles/serp.dir/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serp.dir/MainWindow.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xewhysis/C++/gitprojects/serp/MainWindow.cpp > CMakeFiles/serp.dir/MainWindow.cpp.i
 
-CMakeFiles/serp.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serp.dir/mainwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xewhysis/C++/gitprojects/serp/mainwindow.cpp -o CMakeFiles/serp.dir/mainwindow.cpp.s
+CMakeFiles/serp.dir/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serp.dir/MainWindow.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xewhysis/C++/gitprojects/serp/MainWindow.cpp -o CMakeFiles/serp.dir/MainWindow.cpp.s
+
+CMakeFiles/serp.dir/KochWidget.cpp.o: CMakeFiles/serp.dir/flags.make
+CMakeFiles/serp.dir/KochWidget.cpp.o: /home/xewhysis/C++/gitprojects/serp/KochWidget.cpp
+CMakeFiles/serp.dir/KochWidget.cpp.o: CMakeFiles/serp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/serp.dir/KochWidget.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serp.dir/KochWidget.cpp.o -MF CMakeFiles/serp.dir/KochWidget.cpp.o.d -o CMakeFiles/serp.dir/KochWidget.cpp.o -c /home/xewhysis/C++/gitprojects/serp/KochWidget.cpp
+
+CMakeFiles/serp.dir/KochWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serp.dir/KochWidget.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xewhysis/C++/gitprojects/serp/KochWidget.cpp > CMakeFiles/serp.dir/KochWidget.cpp.i
+
+CMakeFiles/serp.dir/KochWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serp.dir/KochWidget.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xewhysis/C++/gitprojects/serp/KochWidget.cpp -o CMakeFiles/serp.dir/KochWidget.cpp.s
 
 # Object files for target serp
 serp_OBJECTS = \
 "CMakeFiles/serp.dir/serp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/serp.dir/main.cpp.o" \
-"CMakeFiles/serp.dir/mainwindow.cpp.o"
+"CMakeFiles/serp.dir/MainWindow.cpp.o" \
+"CMakeFiles/serp.dir/KochWidget.cpp.o"
 
 # External object files for target serp
 serp_EXTERNAL_OBJECTS =
 
 serp: CMakeFiles/serp.dir/serp_autogen/mocs_compilation.cpp.o
 serp: CMakeFiles/serp.dir/main.cpp.o
-serp: CMakeFiles/serp.dir/mainwindow.cpp.o
+serp: CMakeFiles/serp.dir/MainWindow.cpp.o
+serp: CMakeFiles/serp.dir/KochWidget.cpp.o
 serp: CMakeFiles/serp.dir/build.make
 serp: CMakeFiles/serp.dir/compiler_depend.ts
 serp: /usr/lib/libQt6Widgets.so.6.11.2
@@ -141,7 +157,7 @@ serp: /usr/lib/libGLX.so
 serp: /usr/lib/libOpenGL.so
 serp: /usr/lib/libQt6Core.so.6.11.2
 serp: CMakeFiles/serp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable serp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable serp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

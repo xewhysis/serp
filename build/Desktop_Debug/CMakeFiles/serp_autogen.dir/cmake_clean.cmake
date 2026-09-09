@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/serp_autogen"
-  "serp_autogen/include/ui_mainwindow.h"
+  "serp_autogen/include/ui_MainWindow.h"
   "serp_autogen/mocs_compilation.cpp"
   "serp_autogen/timestamp"
 )

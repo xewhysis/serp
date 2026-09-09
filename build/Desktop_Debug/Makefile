@@ -200,6 +200,54 @@ serp_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp_autogen.dir/build.make CMakeFiles/serp_autogen.dir/build
 .PHONY : serp_autogen/fast
 
+KochWidget.o: KochWidget.cpp.o
+.PHONY : KochWidget.o
+
+# target to build an object file
+KochWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/KochWidget.cpp.o
+.PHONY : KochWidget.cpp.o
+
+KochWidget.i: KochWidget.cpp.i
+.PHONY : KochWidget.i
+
+# target to preprocess a source file
+KochWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/KochWidget.cpp.i
+.PHONY : KochWidget.cpp.i
+
+KochWidget.s: KochWidget.cpp.s
+.PHONY : KochWidget.s
+
+# target to generate assembly for a file
+KochWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/KochWidget.cpp.s
+.PHONY : KochWidget.cpp.s
+
+MainWindow.o: MainWindow.cpp.o
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -223,30 +271,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
-
-# target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
-
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serp.dir/build.make CMakeFiles/serp.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
 
 serp_autogen/mocs_compilation.o: serp_autogen/mocs_compilation.cpp.o
 .PHONY : serp_autogen/mocs_compilation.o
@@ -287,12 +311,15 @@ help:
 	@echo "... serp_autogen"
 	@echo "... serp_autogen_timestamp_deps"
 	@echo "... serp"
+	@echo "... KochWidget.o"
+	@echo "... KochWidget.i"
+	@echo "... KochWidget.s"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
 	@echo "... serp_autogen/mocs_compilation.o"
 	@echo "... serp_autogen/mocs_compilation.i"
 	@echo "... serp_autogen/mocs_compilation.s"

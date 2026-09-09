@@ -685,9 +685,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/xewhysis/C++/gitprojects/serp/mainwindow.h",
+			"/home/xewhysis/C++/gitprojects/serp/KochWidget.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"EWIEGA46WW/moc_KochWidget.cpp",
+			null
+		],
+		[
+			"/home/xewhysis/C++/gitprojects/serp/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		]
 	],
@@ -749,8 +755,9 @@
 	"SETTINGS_FILE" : "/home/xewhysis/C++/gitprojects/serp/build/Desktop_Debug/CMakeFiles/serp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/xewhysis/C++/gitprojects/serp/main.cpp", "MU", null ],
-		[ "/home/xewhysis/C++/gitprojects/serp/mainwindow.cpp", "MU", null ]
+		[ "/home/xewhysis/C++/gitprojects/serp/KochWidget.cpp", "MU", null ],
+		[ "/home/xewhysis/C++/gitprojects/serp/MainWindow.cpp", "MU", null ],
+		[ "/home/xewhysis/C++/gitprojects/serp/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
