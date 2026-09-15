@@ -7079,7 +7079,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local"
+			"value" : "/tmp"
 		},
 		{
 			"name" : "serp_BINARY_DIR",
